@@ -1,22 +1,78 @@
 .App {
   text-align: center;
 }
+body {
+  background-color: #EDCB64;
+
+ }
+
+div .movie {
+  font-size: 20px;
+  padding-top: 1px;
+  font-family: Futura;
+  text-decoration: none;
+  color: #F24D29;
+}
+
+a:link {
+  color: #F24D29;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #F24D29;
+}
+div .movie-list {
+  font-family: Futura;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: black;
+}
+
+h1 {
+  font-family: Futura;
+  position: absolute;
+  top: 70px;
+  left: 200px;
+  font-weight:bolder;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 70px;
+  padding-top: 20px;
+
+  -webkit-text-fill-color: #EDCB64;
+  -webkit-text-stroke-color: #1DACE8;
+  -webkit-text-stroke-width: 4.75px;
+}
+h3  {
+  font-family: Futura;
+  font-weight:bolder;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: 70px;
+
+
+  -webkit-text-fill-color: #1DACE8;
+  -webkit-text-stroke-color: #1DACE8;
+
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
