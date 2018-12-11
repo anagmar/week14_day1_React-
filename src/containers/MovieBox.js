@@ -27,9 +27,12 @@ class MovieBox extends Component {
           link:"https://www.imdb.com/title/tt0362270/?ref_=nv_sr_1",
           title: "Life Acquatic"
         }
-      ]
+      ],
+      buttom: "https://www.indiewire.com/2017/05/wes-anderson-movies-ranked-rushmore-royal-tenenbaums-fantastic-mr-fox-1201811293/"
     }
   }
+
+
 //render
   render(){
     return(
@@ -38,6 +41,7 @@ class MovieBox extends Component {
       <h1 className="title">{this.props.title}</h1>
       <h3 className="title2">{this.props.title2}</h3>
       <MovieList data = {this.state.movies}/>
+      <a href = {this.state.buttom}><button>- All Movies -</button></a>
       </Fragment>
     );
   }
